@@ -1,4 +1,7 @@
-
+/*
+ This is my own code, you can use according to your requirement 
+ You can change your cart item price 
+*/
 
 add_action( 'woocommerce_before_calculate_totals', 'add_custom_price' );
 function add_custom_price($cart_object) {
